@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  .cart-scroll::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .cart-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .cart-scroll::-webkit-scrollbar-thumb {
+    background: #c8bfb1;
+    border-radius: 9999px;
+  }
+
+  .cart-scroll::-webkit-scrollbar-thumb:hover {
+    background: #9e9485;
+  }
+}
