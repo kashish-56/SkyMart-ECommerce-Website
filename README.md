@@ -4,11 +4,7 @@ SkyMart is a modern, responsive e-commerce web application built with **React**,
 
 ---
 
-## 🚀 Live Demo
-
-```
-[https://your-live-demo.vercel.app/](https://sky-mart-e-commerce-website.vercel.app/login)
-```
+🚀 **Live App:** [https://kashish-56/SkyMart-ECommerce-Website/](https://sky-mart-e-commerce-website.vercel.app/login)
 ---
 
 ## 📸 Screenshots
