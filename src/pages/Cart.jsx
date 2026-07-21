@@ -10,6 +10,8 @@ export default function Cart() {
   const {cart,setCart,setOpen,increaseQty,
         decreaseQty,order, setOrder} = useContext(MyStore)
 
+        console.log(cart)
+
         const [orderSuccess, setOrderSuccess] = useState(false);
 
   useEffect(() => {

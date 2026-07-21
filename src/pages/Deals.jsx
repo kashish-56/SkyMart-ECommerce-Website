@@ -9,7 +9,8 @@ import DealData from "../data/DealData";
 
 export default function Deals() {
 
-     let {deals,setCart,setIsCartOpen,setOpen}= useContext(MyStore);
+     let {deals,setCart,setIsCartOpen,setOpen,cart}= useContext(MyStore);
+     console.log(deals)
   return (
     <>
     <DealData/>
@@ -293,8 +294,10 @@ export default function Deals() {
 
         <button
           onClick={() => {
-            setCart((prev) => [...prev, deal]);
-            setIsCartOpen(true);
+            let cartItems = [...cart, {...deal,quantity:1}];
+              setCart(cartItems);
+              setIsCartOpen(true);
+              localStorage.setItem('cartItems',JSON.stringify(cartItems));
           }}
 
           className="
